@@ -154,14 +154,37 @@ void USART_init(void)
 	UCSR0C = (1<<UCSZ00) | (1<<UCSZ01);
 	UCSR0B |= (1<<RXCIE0);
 }
+
 ISR(USART_RX_vect)
 {
 	volatile uint8_t received_data = UDR0;
-	if(received_data == 1) transmit = 1;
-	if(received_data == 0) transmit = 0;
+	if(received_data > 0) transmit = 1;
 }
+
 void USART_send(uint8_t data)
 {
 	while(!(UCSR0A & (1<<UDRE0)));
 	UDR0 = data;
+}
+
+void transmit_data_with_checksum_xor(int arr[])
+{
+	uint8_t checksum = 0;
+	char transdata1 = 0;
+	char transdata2 = 0;
+	int x = 0;
+	while(1)
+	{
+		
+		transdata1 = arr[x]>>8;
+		transdata2 =  arr[x] & 0x0F;
+		checksum ^= transdata1;
+		checksum ^= transdata2;
+		USART_send(transdata1);
+		USART_send(transdata2);
+		if(arr[x] == '*') break;
+		x++;
+	}
+	USART_send(checksum);
+	transmit = 0;
 }

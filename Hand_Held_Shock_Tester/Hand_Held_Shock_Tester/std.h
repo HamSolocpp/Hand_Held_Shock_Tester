@@ -47,6 +47,9 @@
 #define OFF_Y 0x31
 #define OFF_Z 0x0D
 
+#define BAUDRATE 9600
+#define BAUD_PRESCALER ((F_CPU/(16UL*BAUDRATE))-1)
+
 void initialse();
 unsigned long millis(void);
 unsigned int read_adc(char);
@@ -57,5 +60,6 @@ void MMA8451_init();
 void i2c_write_reg(char device, char reg, char data);
 char i2c_read_reg(char device, char reg);
 void USART_send(uint8_t data);
+void transmit_data_with_checksum_xor(int arr[]);
 
 #endif /* STD_H_ */
