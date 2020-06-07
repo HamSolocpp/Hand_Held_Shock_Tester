@@ -1,0 +1,11 @@
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\bin\Debug\GraphsWithGeometrics.exe.config
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\bin\Debug\GraphsWithGeometrics.exe
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\bin\Debug\GraphsWithGeometrics.pdb
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\obj\Debug\GraphsWithGeometrics.csprojAssemblyReference.cache
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\obj\Debug\GraphsWithGeometrics.Form1.resources
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\obj\Debug\GraphsWithGeometrics.Properties.Resources.resources
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\obj\Debug\GraphsWithGeometrics.csproj.GenerateResource.cache
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\obj\Debug\GraphsWithGeometrics.csproj.CoreCompileInputs.cache
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\obj\Debug\GraphsWithGeometrics.exe
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\obj\Debug\GraphsWithGeometrics.pdb
+C:\Users\Mikkel Mogensen\source\repos\GraphsWithGeometricsForProject\GraphsWithGeometrics\obj\Debug\GraphsWithGeometrics.csproj.ResolveComReference.cache
